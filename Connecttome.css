@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html
+ {
+     overflow: hidden; 
+}
+
+
+.connectpage{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    /* padding: 2rem; */
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.form input{
+    border: 3px solid navy;
+    border-radius: 10px;
+    background-color: rgb(237, 237, 237);
+    width: 25rem;
+    margin: 1rem;
+    padding: 0.6rem;
+    font-weight: bolder;
+}
+#message{
+    background-color: rgb(237, 237, 237);
+    border: 3px solid navy;
+    border-radius: 13px;
+    padding: 13px;
+
+}
+
+#btnsubmit{
+
+
+    color: white;
+    background-color:royalblue;
+    border: 3px solid black;
+    border-radius: 23px;
+
+  
+    padding: 13px;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.5s;  
+    
+}
+
+#btnsubmit:hover{
+    background-color: white;
+    color: royalblue;
+}

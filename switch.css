@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.lightmode{
+  background-color: white;
+  color: black;
+
+}
+.darkmode{
+  background-color: black;
+  color: white;
+}
+
+.switchme{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  
+}
+#togglebtn{
+  
+  border: 2px solid royalblue;
+  border-radius: 13px;
+  height: 3rem;
+  width: 8rem;  
+
+  cursor: pointer;
+}
+#click1{
+  position: absolute;
+  margin-left: 35.5rem;
+  margin-top: 31px;
+
+  font-family: 'Zen Antique', serif;
+  font-size: 1.5rem;
+}
+
+#click2{
+  position: absolute;
+  margin-left: 50rem;
+  margin-top: 31px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+}
+
+  
+  

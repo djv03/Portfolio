@@ -1,0 +1,196 @@
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.body{
+    background-color: white;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+.intro
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+
+}
+.myinfo{
+    /* border: 2px solid red; */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    font-family: 'Press Start 2P', cursive;
+}
+.titles{
+    margin-left: 15px;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+.myinfo p{
+    padding: 13px;
+}
+#name{
+    color: #fff;
+    text-shadow:
+        0 0 7px #132efe,
+        0 0 10px #132efe,
+        0 0 21px #132efe,
+        0 0 42px lightskyblue,
+        0 0 82px lightskyblue,
+        0 0 92px lightskyblue;
+        /* 0 0 102px #0fa; */
+        /* 0 0 151px #0fa; */
+    font-size: 3rem;
+    font-family: 'Zen Antique', serif;
+}
+
+.mypic img{
+   
+    border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #132efe,
+            0 0 0.8rem #132efe,
+            0 0 2.8rem #132efe,
+            inset 0 0 1.3rem #132efe; 
+
+
+    height: 36rem;
+    width: 27rem;    
+}
+
+
+.btnofintro{
+    display: flex;
+    margin-top: 2rem;    
+}
+.myinfo button{
+
+    margin-left: 1rem;
+    padding: 10px;
+    color: white;
+    background-color:royalblue;
+    border: 1px solid royalblue;
+    border-radius: 23px;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.myinfo button:hover{
+    background-color: white;
+    color: black;
+}
+
+.lightmode{
+    color: black;
+    background-color: white;
+}
+.darkmode{
+    background-color: black;
+    color: white;
+}
+
+
+                                                       @media screen and (max-width: 900px) {
+
+    .intro{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 6rem;
+
+    }
+    .mypic img{
+        /* border: 2px solid red; */
+        height: 24rem;
+        width: 18rem;
+    }
+    #name{
+        font-size: 2.3rem;
+    }
+    .myinfo{
+        margin-top: 10px;
+        align-items: center;
+    }
+    #line1{
+        display: none;
+    }
+    .titles{
+        text-align: center;
+        width: 15rem;
+        
+        /* border: 2px solid red; */
+
+    }
+    .sidebar{
+        position: absolute;
+        /* height: 100vh; */
+        width: 40vw;
+        background:  #4a56b4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition:transform 0.3s ease-in;
+    }
+    .cross{
+        margin-left: 15rem;
+        margin-top: 8px;
+    }
+    .socials{
+        display: flex;
+        /* flex-wrap: wrap; */
+        margin-top: 4vh;
+    }
+    .socials a ul{
+        /* margin-left: 2rem; */
+        margin-top: 10px;
+    }
+    .socials a ul img{
+        height: 2rem;
+        width: 2rem;   
+    }
+    .btnofintro{
+        display: flex;
+        margin-top: 2rem;
+        /* margin-left: 3rem; */
+        margin-bottom: 2rem;
+    }
+
+
+
+.main{
+    margin: 0;
+    padding: 0;
+
+}
+.connectpage{
+    margin-top: 6rem;
+}
+
+
+.connectpage .form input{
+    width: 20rem;
+}
+.connectpage .form textarea{
+    width: 20rem;
+    margin: 10px;
+}
+#btnsubmit{
+    margin: auto;
+    margin-top: 23px;
+    padding: 10px;
+}
+                                                       }

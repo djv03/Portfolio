@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Projectspage h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.projectgrid{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.Projectspage .card{
+    width: 18rem;
+    /* border: 2px solid navy; */
+    border-radius: 13px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+ .card:hover{
+    margin-top: 3px;
+
+ }
+
+
+.card img{
+    height: 11rem;
+    width: 18rem;
+    border: 2px solid navy;
+    border-radius: 13px;
+
+    
+}
+.card .card-title{
+    text-overflow: ellipsis;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    padding: 13px;
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+.card .card-text{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.card button{
+    height: 2rem;
+    width: 6rem;
+    margin-left: 6rem;
+    margin-bottom:5px ;
+    color: white;
+    background-color:royalblue;
+    border: 3px solid black;
+    border-radius: 23px;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card button:hover{
+    color: royalblue;
+    background-color: white;
+    
+}
+
+.card button .go-live{
+    color: black;
+    text-decoration: none;
+}

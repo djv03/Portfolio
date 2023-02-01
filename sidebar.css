@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    display: flex;
+}
+
+.hamburger{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    height: 1rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+.ham{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 1.2rem ;
+    background-color: royalblue;
+    border:2px solid royalblue;
+    border-radius: 7px;
+
+}
+.cross{
+    height: 30px;
+    width: 30px;
+
+    margin-left: 19rem;
+    margin-top: 0.7rem;
+    filter: invert(100%);
+}
+
+.sidebar{
+    position: absolute;
+    height: 100vh;
+    width: 12vw;
+    background: #4a56b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition:transform 0.3s ease-in;
+    /* position: sticky; */
+}
+.sidebargo{
+    transform: translate(-400px,0px);
+    position: absolute;
+}
+
+#logo{
+    margin-left: 19px;
+    font-size: 2rem;
+    margin-top: 6vh;
+}
+.navbar ul{
+    
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 110px; */
+    margin-top: 10vh;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    
+
+}
+.navbar ul li{
+    margin: 32px;
+    scroll-behavior: smooth;
+}
+.navbar ul li a{
+    
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    scroll-behavior: smooth;
+}
+.navbar ul li a:hover{
+    color: white;
+}
+
+
+.socials{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 8.5rem;
+}
+.socials a img{
+    
+    margin-bottom: 10px;
+    height: 2rem;
+    width: 2rem;
+    transition: 0.5s;
+}
+.socials a img:hover{
+    transform: rotate(360deg);
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 22px;
+}
+
